@@ -1,0 +1,145 @@
+# coding=utf-8
+from bs4 import BeautifulSoup
+import logging
+import sys
+import os
+import re
+import MySQLdb
+sys.path.append(os.path.pardir + os.sep + os.path.pardir)
+from common import downloader
+from common import config
+
+reload(sys)
+sys.setdefaultencoding('utf8')
+logger = logging.getLogger(__name__)
+
+
+class JiaJiSpider():
+    def __init__(self):
+        self.author = "liriqing"
+        self.web_title = "佳吉快递"
+        self.n=0
+        self.count = 1
+        self.m=0
+        self.conn = config.connection()  # 连接数据库配置
+
+
+    def download_index_pages(self, url):
+
+        index_requests = downloader.get(url)
+        index_requests.encoding = 'utf-8'
+        soup = BeautifulSoup(index_requests.text, 'html.parser')
+        node=soup.find('div',id="express-list").find_all('a')
+        for a in range(1,len(node)):
+            express=re.search(r"(.*?)\(", node[a].get_text().strip()).group(1)
+            href = node[a]['href']
+            kuaido_url="https://m.ickd.cn/outlets/"+href
+            self.parse_index_page(kuaido_url,express)
+
+    def parse_index_page(self, url,express):
+        """从列表页解析出urls"""
+        index_requestsA = downloader.get(url)
+        index_requestsA.encoding = 'utf-8'
+        soupA = BeautifulSoup(index_requestsA.text, 'html.parser')
+        nodeA = soupA.find('div', id="province-list").find_all('a')
+        for a in range(1, len(nodeA)):
+            province = re.search(r"(.*)\(?", nodeA[a].get_text().strip()).group(1)
+            href = nodeA[a]['href']
+            index_requests = downloader.get("https://m.ickd.cn/outlets/"+href)
+            index_requests.encoding = 'utf-8'
+            soup = BeautifulSoup(index_requests.text, 'html.parser')
+            node = soup.find('div', id="city-list").find_all('a')
+            for b in range(1, len(node)):
+                city = re.search(r"(.*?)\(", node[b].get_text().strip()).group(1)
+                href = node[b]['href']
+                city_url="https://m.ickd.cn/outlets/"+href
+                city_requests = downloader.get(city_url)
+                city_requests.encoding = 'utf-8'
+                city_soup = BeautifulSoup(city_requests.text, 'html.parser')
+                try:
+                    city_node = city_soup.find('div', id="county-list").find_all('a')
+                    for city_a in range(1, len(city_node)):
+                        county = re.search(r"(.*?)\(", city_node[city_a].get_text().strip()).group(1)
+                        city_href = city_node[city_a]['href']
+                        self.parse_detail_page("https://m.ickd.cn/outlets/"+city_href,express,province,city,county)
+
+                except:
+                    county=""
+                    self.parse_detail_page(city_url,express,province,city,county)
+
+
+
+
+
+
+
+    def parse_detail_page(self, detail_url,express,province,city,county):
+        """解析详情页"""
+        l=0
+        if(county==""):
+            xian="空"
+        else:
+            xian=county
+        sc_requests = downloader.get(detail_url,timeout=30)
+        sc_requests.encoding = 'utf-8'
+        sc_soup = BeautifulSoup(sc_requests.text, 'html.parser')
+        sc = sc_soup.find('div', class_="list article pa5 ma5")
+        td_node = sc.find_all('a')
+        for link in td_node:
+            finally_url="https://m.ickd.cn/outlets/"+link['href']
+
+            finally_requests = downloader.get(finally_url, timeout=30)
+            finally_requests.encoding = 'utf-8'
+            finally_soup = BeautifulSoup(finally_requests.text, 'html.parser')
+            div = finally_soup.find('div', class_="article ma5 pa5")
+            section=div.find_all('section')[1]
+            try:
+                table=section.find('table').find_all('tr')
+                for a in range(1,len(table)):
+                    try:
+                        all_td=table[a].find_all('td')
+                        website_name=all_td[1].get_text()
+                        website_address = all_td[2].get_text()
+                        website_telephone = all_td[3].get_text()
+                        self.insert_kd(website_name,website_address,website_telephone,express,province,city,county)
+                        l += 1
+                        logger.debug("正在爬取的是：%s,%s,%s,%s,url为 %s 的第%d个数据" % (express,province,city,xian,finally_url,l))
+                    except:
+                        continue
+
+            except:
+                logger.debug("爬取无表格的url:%s"%finally_url)
+                website_name = finally_soup.find('h1',class_="h1 f16 bb bc_ddd pb5").get_text()
+                website_address = re.search(ur"网点地址：(.*?)所属区域", div.get_text().strip()).group(1)
+                website_telephone_text = section.find_all('a')
+                if (len(website_telephone_text) > 1):
+                    website_telephone = finally_soup.find('p', class_='pt5 pb5').get_text()
+                else:
+                    website_telephone=website_telephone_text[0].get_text()
+                self.insert_kd(website_name,website_address,website_telephone,express,province,city,county)
+                l += 1
+                logger.debug("正在爬取的是：%s,%s,%s,%s,url为 %s 的第%d个数据" % (express, province, city, xian, finally_url, l))
+
+    def insert_kd(self,website_name,website_address,website_telephone,express,province,city,county):
+
+        conn = self.conn
+        cur = conn.cursor()
+
+        try:
+            # 插入正式库
+            sql = 'insert into d(website_name,website_address,website_telephone,express,province,city,county) values ( %s,%s, %s, %s, %s, %s, %s)'
+            a=(website_name,website_address,website_telephone,express,province,city,county)
+            cur.execute(sql,a)
+            conn.commit()
+        except MySQLdb.Error as e:  # ignore mysql error: Duplicate entry。
+            logger.debug(e)
+    def start(self):
+        url = "https://m.ickd.cn/outlets/"
+        self.download_index_pages(url)
+
+
+
+
+if __name__ == "__main__":
+    spider = JiaJiSpider()
+    spider.start()
