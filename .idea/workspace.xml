@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf5a2d2-2576-406c-9e80-635f8da4f2c1" name="Default" comment="" />
+    <list default="true" id="dbf5a2d2-2576-406c-9e80-635f8da4f2c1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/Demo55.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="42" />
+              <caret line="94" column="42" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="42" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
@@ -188,7 +190,7 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -392,7 +394,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12880562" />
@@ -775,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/Demo55.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="94" column="42" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="42" />
+          <caret line="94" column="42" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="42" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
           </folding>
