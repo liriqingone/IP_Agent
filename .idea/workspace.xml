@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbf5a2d2-2576-406c-9e80-635f8da4f2c1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Tan_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo55.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo55.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +36,7 @@
       <file leaf-file-name="Demo11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
+            <state relative-caret-position="417">
               <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
               <folding>
                 <element signature="e#15#44#0" expanded="true" />
@@ -46,7 +48,7 @@
       <file leaf-file-name="ip_adress_proxy_ip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Us_proxy_ip/ip_adress_proxy_ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="361">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
@@ -58,41 +60,8 @@
       <file leaf-file-name="Premproxy_ip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Us_proxy_ip/Premproxy_ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="266">
               <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spys_proxy_ip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Us_proxy_ip/spys_proxy_ip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="py_sample (1).py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/py_sample (1).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/show_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <element signature="e#29#48#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +69,8 @@
       <file leaf-file-name="Demo55.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo55.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="94" column="42" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="42" />
+            <state relative-caret-position="313">
+              <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
@@ -112,10 +81,31 @@
       <file leaf-file-name="Demo3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="323">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#16#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tan_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tan_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#15#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +140,9 @@
       <find>global-wrapper</find>
       <find>proxy__t</find>
       <find>web-content</find>
+      <find>DB</find>
+      <find>driver</find>
+      <find>Db</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,12 +169,13 @@
         <option value="$PROJECT_DIR$/Us_proxy_ip/hidemyna_proxy_ip.py" />
         <option value="$PROJECT_DIR$/Us_proxy_ip/ip_adress_proxy_ip.py" />
         <option value="$PROJECT_DIR$/China_proxy_ip/Wuyoudaili_proxy_ip.py" />
-        <option value="$PROJECT_DIR$/Demo3.py" />
         <option value="$PROJECT_DIR$/Demo2.py" />
         <option value="$PROJECT_DIR$/show_data.py" />
         <option value="E:/py_sample (1).py" />
-        <option value="$PROJECT_DIR$/Demo55.py" />
         <option value="$PROJECT_DIR$/Demo11.py" />
+        <option value="$PROJECT_DIR$/Demo3.py" />
+        <option value="$PROJECT_DIR$/Tan_demo.py" />
+        <option value="$PROJECT_DIR$/Demo55.py" />
       </list>
     </option>
   </component>
@@ -211,7 +205,7 @@
             <path>
               <item name="IP_Agent" type="b2602c69:ProjectViewProjectNode" />
               <item name="IP_Agent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="China_proxy_ip" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +216,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/WellData_deving" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -248,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Demo11">
+  <component name="RunManager" selected="Python.Demo55">
     <configuration name="Demo11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IP_Agent" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,6 +300,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Tan_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IP_Agent" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tan_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,39 +357,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="show_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="IP_Agent" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.Demo3" />
       <item itemvalue="Python.py_sample (1)" />
-      <item itemvalue="Python.show_data" />
       <item itemvalue="Python.Demo55" />
       <item itemvalue="Python.Demo11" />
+      <item itemvalue="Python.Tan_demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Demo11" />
         <item itemvalue="Python.Demo55" />
+        <item itemvalue="Python.Tan_demo" />
+        <item itemvalue="Python.Demo11" />
         <item itemvalue="Python.py_sample (1)" />
         <item itemvalue="Python.Demo3" />
-        <item itemvalue="Python.show_data" />
       </list>
     </recent_temporary>
   </component>
@@ -400,13 +394,13 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.12880562" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22719449" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15490533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -420,15 +414,15 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12880562" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22719449" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15490533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12880562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
+      <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
@@ -452,14 +446,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/China_proxy_ip/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/China_proxy_ip/Mayi_proxy_ip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -693,23 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/py_sample (1).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -737,19 +712,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding>
-            <element signature="e#15#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Us_proxy_ip/ip_adress_proxy_ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="361">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
@@ -759,14 +724,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Us_proxy_ip/Premproxy_ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="266">
           <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Us_proxy_ip/spys_proxy_ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
+        <state relative-caret-position="1653">
           <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
@@ -774,10 +739,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#16#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tan_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demo55.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="94" column="42" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="42" />
+        <state relative-caret-position="313">
+          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
           </folding>
